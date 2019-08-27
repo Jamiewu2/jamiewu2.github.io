@@ -6,14 +6,16 @@ p.overlay__excerpt {
   letter-spacing: .16em; /* Adjust as needed */
   box-sizing: border-box;
   animation: 
-    typing 3.5s steps(100, end),
+    typing 2.5s steps(100, end),
     blink-caret 1s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  0% { width: 0 }
+  30% { width: 54.8% }
+  70% { width: 54.8% }
+  100% { width: 100% }
 }
 
 /* The typewriter cursor effect */
